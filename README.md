@@ -13,7 +13,7 @@
 # 简单示例
 
 
-代码:
+# 代码:
 
     private void initView() {
         mTvBig = (AnimTextView) findViewById(R.id.mTvBig);
@@ -30,7 +30,7 @@
     }
     
     
-xml:
+# xml
 
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
                 xmlns:tools="http://schemas.android.com/tools"
