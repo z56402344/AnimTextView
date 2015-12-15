@@ -20,6 +20,7 @@
         android:textSize="60dp"
         android:minWidth="88dp"
         android:minHeight="77dp"
+        android:gravity="center_horizontal"
         android:layout_marginTop="70dp"
         android:layout_centerHorizontal="true"
         android:background="@drawable/bg_lesson_head_cont"/>
@@ -39,6 +40,7 @@
         android:textSize="30dp"
         android:layout_below="@id/mTvBig"
         android:layout_marginTop="70dp"
+        android:gravity="center"
         android:layout_centerHorizontal="true"
         android:background="@drawable/bg_lesson_head_cont"/>
     <TextView
@@ -56,6 +58,7 @@
         android:layout_below="@id/mTvSmall"
         android:layout_marginTop="70dp"
         android:textSize="45dp"
+        android:gravity="center"
         android:layout_centerHorizontal="true"
         android:background="@android:color/white"/>
 

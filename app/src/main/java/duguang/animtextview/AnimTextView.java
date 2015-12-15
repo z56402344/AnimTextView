@@ -84,7 +84,9 @@ public class AnimTextView extends TextView {
     public void startAnim() {
         if (mStrList.size() == 0)return;
         int mDur = 1500;//第一列动画的时间基数
-        mW = (float) ((getWidth() / mStrList.size())* 1.25);
+        float x = 1+ (mStrList.size() * 0.06f < 0.1?0:mStrList.size() * 0.06f);
+        x = x>1.30f?1.30f:x;
+        mW = (float) ((getWidth() / mStrList.size())* x);
         mLayoutH = 0;
         TextPaint p = getPaint();
         p.setColor(getCurrentTextColor());
